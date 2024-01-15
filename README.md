@@ -4,8 +4,8 @@ Recursionの「バックエンドプロジェクト・File Manipulator Program�
 ファイル操作のためのプログラムです。   
 4つの機能に分かれており、機能ごとに処理が分岐します。   
 
-(1) Reverse(入力ファイルパス，出力ファイルパス)  :　入力ファイルの中身を逆順にして、出力ファイルに書き込みます。   
-(2) Copy   (入力ファイルパス，出力ファイルパス)  :　入力ファイルを出力ファイルにコピーします。    
-(3) Duplicate　(入力ファイルパス，出力ファイルパス，複製回数) :　入力ファイルの中身をn回、出力ファイルに複製します。    
-(4) Replace (入力ファイルパス，出力ファイルパス) :　入力ファイル内の”needle”という文字列を”newstring”に変換します。    
+(1) Reverse(fileinput，fileoutput)  :　入力ファイルの中身を逆順にして、出力ファイルに書き込みます。   
+(2) Copy   (fileinput，fileoutput)  :　入力ファイルを出力ファイルにコピーします。    
+(3) Duplicate　(fileinput，fileoutput，duplicate_number) :　入力ファイルの中身をn回、出力ファイルに複製します。    
+(4) Replace (fileinput，fileoutput) :　入力ファイル内の”needle”という文字列を”newstring”に変換します。    
 
