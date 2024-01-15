@@ -6,6 +6,6 @@ Recursionの「バックエンドプロジェクト・File Manipulator Program�
 
 (1) Reverse(fileinput，fileoutput)  :　入力ファイルの中身を逆順にして、出力ファイルに書き込みます。   
 (2) Copy   (fileinput，fileoutput)  :　入力ファイルを出力ファイルにコピーします。    
-(3) Duplicate　(fileinput，fileoutput，duplicate_number) :　入力ファイルの中身をn回、出力ファイルに複製します。    
+(3) Duplicate　(fileinput，fileoutput，n) :　入力ファイルの中身をn回、出力ファイルに複製します。    
 (4) Replace (fileinput，fileoutput) :　入力ファイル内の”needle”という文字列を”newstring”に変換します。    
 
